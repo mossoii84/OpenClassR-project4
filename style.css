@@ -20,22 +20,15 @@ body {
 img{
     object-fit:cover
   }
-.keywords{
-   color:#4D4D4D;
-   font-size:1px;
-}
-.keywords-color{
-    color:#ed8454;
-}
-
-/* ========= */
 
 /* my code for color and size Footer list text */
 .col-sm-4{
 font-size: 15px;
 color: #000000;
 }
-
+.portfolio-row img{
+    width: 100%;
+}
 
 
 a,
@@ -719,6 +712,10 @@ p {
     margin: auto auto auto auto;
 }
 
+/* .portfolio-row img{
+    width: 100%;
+} */
+
 .h1 {
     font-size: 20px;
     font-family: "Open Sans";
@@ -786,6 +783,7 @@ h4 {
 .portfolio-row {
     margin-bottom: 44px;
     margin-top: 50px;
+
 }
 
 .avatar {
@@ -912,10 +910,10 @@ h4 {
         overflow-x: hidden;
         position: relative;
     }
-    /* .bloc {
+    .bloc {
         padding-left: constant(safe-area-inset-left);
         padding-right: constant(safe-area-inset-right);
-    } */
+    }
     .bloc-group,
     .bloc-group .bloc {
         display: block;
@@ -924,8 +922,8 @@ h4 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        /* padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right); */
+        padding-left: constant(safe-area-inset-left);
+        padding-right: constant(safe-area-inset-right);
     }
 }
 
@@ -946,8 +944,8 @@ h4 {
         padding-right: 10px!important;
     }
 
-    /* j'ai ajouté pour mettre en centre */
-    img{margin: 0 auto!important;}
+    /* j'ai ajouté pour mettre en centre
+    img{margin: 0 auto!important;} */
     
 
     .b-parallax {
@@ -1018,28 +1016,28 @@ h4 {
         float: left;
         margin-left: 10px;
     }
-    /* .bloc {
+    .bloc {
         padding-left: 0;
         padding-right: 0;
-    } */
+    }
     .bloc-xxl,
     .bloc-xl,
     .bloc-lg {
         padding: 40px 0;
     }
-    /* .bloc-sm,
+    .bloc-sm,
     .bloc-md {
         padding-left: 0; 
         padding-right: 0; 
     } */
-    /* .bloc-tile-2 .container,
+    .bloc-tile-2 .container,
     .bloc-tile-3 .container,
     .bloc-tile-4 .container,
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding-left: 0;
         padding-right: 0;
-    } */
+    }
     .a-block {
         padding: 0 10px;
     }
@@ -1073,12 +1071,12 @@ h4 {
     }
 }
 
-/* @media (max-width: 400px) {
+@media (max-width: 400px) {
     .bloc {
         padding-left: 0;
         padding-right: 0;
     }
-} */
+}
 
 @media (max-width: 767px) {
     div,
